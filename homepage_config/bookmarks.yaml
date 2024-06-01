@@ -1,0 +1,59 @@
+- Infrastructure:
+  - Authentik:
+      - icon: https://static-00.iconduck.com/assets.00/authentik-orange-icon-1024x783-nmuex5ud.png
+        href: https://authentik.securetechnique.com
+  - Grafana:
+      - icon: grafana.svg
+        href: https://grafana.josuecarames.com
+  - iLO1:
+      - icon: ilo.svg
+        href: https://ilo1.josuecarames.com
+  - iLO2:
+      - icon: ilo.svg
+        href: https://ilo2.josuecarames.com
+  - iLO3:
+      - icon: ilo.svg
+        href: https://ilo3.josuecarames.com
+  - Kasm:
+      - icon: kasm.svg
+        href: https://kasm.securetechnique.com
+  - πKVM:
+      - icon: pikvm.svg
+        href: https://pikvm.josuecarames.com
+  - Portainer:
+      - icon: portainer.svg
+        href: https://portainer.josuecarames.com
+  - Prometheus:
+      - icon: prometheus.svg
+        href: https://prometheus.josuecarames.com
+  - Proxmox:
+      - icon: proxmox.svg
+        href: https://pve.josuecarames.com
+  - Synology:
+      - icon: synology.svg
+        href: https://nas.josuecarames.com
+  - Traefik Dashboard:
+      - icon: traefik.svg
+        href: https://traefik-dashboard.josuecarames.com
+  - Unifi:
+      - icon: unifi.svg
+        href: https://unifi.josuecarames.com
+  - Uptime Kuma:
+      - icon: uptime-kuma.svg
+        href: https://uptime.josuecarames.com
+
+- IT:
+  - Proxmox VE Helper-Scripts:
+    - icon: https://helper-scripts.com/_next/image?url=%2Flogo1.png&w=384&q=75
+      href: https://helper-scripts.com
+
+- Social:
+  - Github:
+    - icon: github.svg
+      href: https://github.com/josuecarames
+  - LinkedIn:
+    - icon: linkedin.svg
+      href: https://www.linkedin.com/in/josuecarames/
+  - Portfolio:
+    - icon: webkit.svg
+      href: https://www.josuecarames.com/

@@ -1,0 +1,225 @@
+- Snapshots:
+  - Uptime Kuma:
+      widget:
+        type: iframe
+        name: Dashboards
+        src: https://uptime.josuecarames.com/status/infrastructure
+        allowFullscreen: true # optional, default: true
+        loadingStrategy: eager # optional, default: eager
+        allowScrolling: yes # optional, default: yes
+        classes: h-screen w-auto # optional, use tailwind height classes, see https://tailwindcss.com/docs/height
+  
+  # - www.josuecarames.com:
+  #     widget:
+  #       type: iframe
+  #       name: website
+  #       src: https://www.josuecarames.com
+  #       classes: h-60 sm:h-60 md:h-60 lg:h-60 xl:h-60 2xl:h-72 # optional, use tailwind height classes, see https://tailwindcss.com/docs/height
+  #       allowFullscreen: true # optional, default: true
+  #       loadingStrategy: eager # optional, default: eager
+  #       allowScrolling: yes # optional, default: yes
+
+- Grafana:
+  - Grafana:
+      widget:
+        type: iframe
+        name: Dashboards
+        src: https://grafana.josuecarames.com/playlists/play/admc0bixj2i9se?kiosk&autofitpanels
+        allowFullscreen: true # optional, default: true
+        loadingStrategy: eager # optional, default: eager
+        allowScrolling: yes # optional, default: yes
+        classes: h-screen w-auto # optional, use tailwind height classes, see https://tailwindcss.com/docs/height
+
+
+- Infrastructure:
+
+  - Unifi:
+      href: https://unifi.ui.com
+      icon: unifi.svg 
+      siteMonitor: https://unifi.josuecarames.com
+      widget:
+        type: unifi
+        url: https://unifi.josuecarames.com
+        username: {{HOMEPAGE_VAR_UNIFI_USERNAME}}
+        password: {{HOMEPAGE_VAR_UNIFI_PASSWORD}}
+    
+  - Synology:
+      href: https://synology.josuecarames.com
+      icon: synology.svg
+      siteMonitor: https://nas.josuecarames.com
+      widget:
+        type: diskstation
+        url: https://nas.josuecarames.com
+        username: {{HOMEPAGE_VAR_SYNOLOGY_USERNAME}}
+        password: {{HOMEPAGE_VAR_SYNOLOGY_PASSWORD}}
+
+  - Proxmox VE:
+      href: https://pve.josuecarames.com
+      icon: proxmox.svg
+      siteMonitor: https://pve.josuecarames.com
+      widget:
+        type: proxmox
+        url: https://pve.josuecarames.com
+        username: {{HOMEPAGE_VAR_PROXMOX_USERNAME}}
+        password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+
+  - Authentik:
+      href: https://authentik.securetechnique.com
+      icon: authentik
+      siteMonitor: https://authentik.josuecarames.com
+      widget:
+        type: authentik
+        url: https://authentik.josuecarames.com
+        key: {{HOMEPAGE_VAR_AUTHENTIK_API_TOKEN}}
+
+  - Traefik:
+      href: https://traefik-dashboard.josuecarames.com
+      icon: traefik.svg
+      siteMonitor: https://traefik-dashboard.josuecarames.com
+      widget:
+        type: traefik
+        url: https://traefik-dashboard.josuecarames.com
+        # username: username # optional
+        # password: password # optional
+
+  - Prometheus:
+      href: https://prometheus.josuecarames.com
+      icon: prometheus.svg
+      siteMonitor: https://prometheus.josuecarames.com
+      widget:
+        type: prometheus
+        url: https://prometheus.josuecarames.com
+
+  - Grafana:
+      href: https://grafana.josuecarames.com
+      icon: grafana.svg
+      siteMonitor: https://grafana.josuecarames.com
+      widget:
+        type: grafana
+        url: https://grafana.josuecarames.com
+        username: {{HOMEPAGE_VAR_GRAFANA_USERNAME}}
+        password: {{HOMEPAGE_VAR_GRAFANA_PASSWORD}}
+
+  - Uptime Kuma:
+      href: https://uptime.josuecarames.com
+      icon: uptime-kuma.svg
+      siteMonitor: https://uptime.josuecarames.com
+      widget:
+        type: uptimekuma
+        url: https://uptime.josuecarames.com
+        slug: infrastructure
+
+  - Cloudflare:
+      href: https://one.dash.cloudflare.com/
+      icon: cloudflare-zero-trust.svg
+      widget:
+        type: cloudflared
+        accountid: {{HOMEPAGE_VAR_CLOUDFLARE_ACCOUNTID}}
+        tunnelid: {{HOMEPAGE_VAR_CLOUDFLARE_TUNNELID}}
+        key: {{HOMEPAGE_VAR_CLOUDFLARE_APITOKEN}}
+
+- Docker Containers:
+
+  - Portainer:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 2
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - Prometheus:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 7
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - Cloudflare:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 20
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - Cloudflare Backup:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 28
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - Homepage:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 41
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - DNS:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 42
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - DNS Backup:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 43
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - Authentik:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 54
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - MySQL:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 55
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - Ntfy:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 61
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - Traefik:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 57
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - Uptime Kuma:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 59
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - www.josuecarames.com:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 60
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
