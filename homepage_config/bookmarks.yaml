@@ -1,4 +1,4 @@
-- Infrastructure:
+- HomeLab:
   - Authentik:
       - icon: https://static-00.iconduck.com/assets.00/authentik-orange-icon-1024x783-nmuex5ud.png
         href: https://authentik.securetechnique.com
@@ -46,6 +46,88 @@
   - Proxmox VE Helper-Scripts:
     - icon: https://helper-scripts.com/_next/image?url=%2Flogo1.png&w=384&q=75
       href: https://helper-scripts.com
+
+  - Dashboard Icons:
+    - icon: https://avatars.githubusercontent.com/u/71191962?v=4
+      href: https://github.com/walkxcode/dashboard-icons/tree/main/svg
+
+- Cybersecurity:
+  - EC-Council CodeRed:
+    - icon:
+      href: https://codered.eccouncil.org/
+
+  - EC-Council Aspen:
+      - icon:
+        href: https://aspen.eccouncil.org/
+
+  - ISC2 Pikes Peak Chapter:
+      - icon:
+        href: https://www.isc2chapter-pikespeak.org/index.php
+
+  - Qualys SSL Labs:
+    - icon: https://www.ssllabs.com/images/qualys-ssl-labs-logo.png
+      href: https://www.ssllabs.com
+
+  - Telerik:
+    - icon: 
+      href: https://www.telerik.com/
+
+  - Metasploit Course:
+    - icon:
+      href: https://www.offsec.com/metasploit-unleashed/
+
+  - Flipper:
+    - icon: 
+      href: https://flipperzero.one
+
+  - HackRF One:
+    - icon: https://greatscottgadgets.com/images/gsglogosolid.png
+      href: https://greatscottgadgets.com/hackrf/one/
+
+  - Security Certification Roadmap:
+    - icon: https://pauljerimy.com/wp-content/uploads/2021/01/Logo-TEXT.png
+      href: https://pauljerimy.com/security-certification-roadmap/
+
+  - Metageek Store:
+    - icon: https://shop.metageek.com/cdn/shop/files/MetaGeek_Logo_Primary_360x.png?v=1614741732
+      href: https://shop.metageek.com
+
+  - Metageek:
+    - icon: https://shop.metageek.com/cdn/shop/files/MetaGeek_Logo_Primary_360x.png?v=1614741732
+      href: https://www.metageek.com/
+
+  - Exploit DB:
+    - icon: https://www.exploit-db.com/images/spider-white.png
+      href: https://www.exploit-db.com
+
+  - CVSS:
+    - icon: https://www.first.org/cvss/identity/CVSS_4.0-complete-signature-RGB.svg
+      href: https://www.first.org/cvss/
+
+  - Google Transparency Report:
+    - icon: https://www.google.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg
+      href: https://transparencyreport.google.com/safe-browsing/search
+
+  - Virus Total:
+    - icon:
+      href: https://www.virustotal.com/gui/home/upload
+
+  - FireEye Market:
+    - icon:
+      href: https://fireeye.market
+
+  - NIST:
+    - icon: https://www.nist.gov/libraries/nist-component-library/dist/img/logo/NIST-Logo-Brand-White.svg
+      href: https://www.nist.gov
+
+  - TALOS Intelligence:
+    - icon:
+      href: https://talosintelligence.com
+
+  - Threat Modeling:
+    - icon: https://threat-modeling.com/wp-content/uploads/2023/04/cropped-cropped-tm-com-logo-powered.png
+      href: https://threat-modeling.com
+
 
 - Social:
   - Github:

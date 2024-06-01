@@ -19,7 +19,6 @@
   #       loadingStrategy: eager # optional, default: eager
   #       allowScrolling: yes # optional, default: yes
 
-- Grafana:
   - Grafana:
       widget:
         type: iframe
@@ -32,7 +31,6 @@
 
 
 - Infrastructure:
-
   - Unifi:
       href: https://unifi.ui.com
       icon: unifi.svg 
@@ -119,7 +117,6 @@
         key: {{HOMEPAGE_VAR_CLOUDFLARE_APITOKEN}}
 
 - Docker Containers:
-
   - Portainer:
       icon: portainer
       widget:
@@ -222,4 +219,12 @@
         type: portainer
         url: https://portainer.josuecarames.com
         env: 60
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - VSCode Server:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 63
         key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}

@@ -2,6 +2,10 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/settings
 
+hideVersion: true
+
+showStats: true
+
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
@@ -17,6 +21,46 @@ background:
 
 theme: dark # or light
 color: neutral # Supported colors are: slate, gray, zinc, neutral, stone, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose, red, white
+cardBlur: md
 headerStyle: clean
 
 target: _blank # Possible options include _blank, _self, and _top
+
+quicklaunch:
+  searchDescriptions: true
+  # hideInternetSearch: true
+  showSearchSuggestions: true
+  # hideVisitURL: true
+
+layout:
+  Snapshots:
+    header: false
+    tab: Analytics
+    style: row
+    columns: 2
+  Infrastructure:
+    # header: false
+    tab: Services
+    style: row
+    columns: 3
+  Docker Containers:
+    # header: false
+    tab: Services
+    style: row
+    columns: 3
+  HomeLab:
+    tab: Bookmarks
+    style: row
+    columns: 3
+  IT:
+    tab: Bookmarks
+    style: row
+    columns: 3
+  Social:
+    tab: Bookmarks
+    style: row
+    columns: 3
+  Cybersecurity:
+    tab: Bookmarks
+    style: row
+    columns: 3
