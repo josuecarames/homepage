@@ -41,52 +41,51 @@
   - Uptime Kuma:
       - icon: uptime-kuma.svg
         href: https://uptime.josuecarames.com
+  - Ollama:
+      - icon: ollama.svg
+        href: https://ollama.josuecarames.com
 
 - IT:
-  - Proxmox VE Helper-Scripts:
-    - icon: https://helper-scripts.com/_next/image?url=%2Flogo1.png&w=384&q=75
-      href: https://helper-scripts.com
-
   - Dashboard Icons:
     - icon: https://avatars.githubusercontent.com/u/71191962?v=4
       href: https://github.com/walkxcode/dashboard-icons/tree/main/svg
 
+  - Proxmox VE Helper-Scripts:
+    - icon: https://helper-scripts.com/_next/image?url=%2Flogo1.png&w=384&q=75
+      href: https://helper-scripts.com
+
 - Cybersecurity:
+  - CVSS:
+    - icon: https://www.first.org/cvss/identity/CVSS_4.0-complete-signature-RGB.svg
+      href: https://www.first.org/cvss/
+
   - EC-Council CodeRed:
-    - icon:
+    - icon: https://www.eccouncil.org/wp-content/uploads/2020/12/ec-council-white-logo.png
       href: https://codered.eccouncil.org/
 
   - EC-Council Aspen:
-      - icon:
-        href: https://aspen.eccouncil.org/
+    - icon: https://www.eccouncil.org/wp-content/uploads/2020/12/ec-council-white-logo.png
+      href: https://aspen.eccouncil.org/
 
-  - ISC2 Pikes Peak Chapter:
-      - icon:
-        href: https://www.isc2chapter-pikespeak.org/index.php
-
-  - Qualys SSL Labs:
-    - icon: https://www.ssllabs.com/images/qualys-ssl-labs-logo.png
-      href: https://www.ssllabs.com
-
-  - Telerik:
-    - icon: 
-      href: https://www.telerik.com/
-
-  - Metasploit Course:
-    - icon:
-      href: https://www.offsec.com/metasploit-unleashed/
+  - Exploit DB:
+    - icon: https://www.exploit-db.com/images/spider-white.png
+      href: https://www.exploit-db.com
 
   - Flipper:
-    - icon: 
+    - icon: https://flipperzero.one/img/tild3363-3430-4063-b531-323834643038__orange_text_transpar.svg
       href: https://flipperzero.one
 
+  - Google Transparency Report:
+    - icon: https://www.google.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg
+      href: https://transparencyreport.google.com/safe-browsing/search
+ 
   - HackRF One:
     - icon: https://greatscottgadgets.com/images/gsglogosolid.png
       href: https://greatscottgadgets.com/hackrf/one/
 
-  - Security Certification Roadmap:
-    - icon: https://pauljerimy.com/wp-content/uploads/2021/01/Logo-TEXT.png
-      href: https://pauljerimy.com/security-certification-roadmap/
+  - ISC2 Pikes Peak Chapter:
+    - icon: https://www.isc2.org/-/media/Project/ISC2/Main/Media/logos/logo.svg?iar=0&rev=07c9a854362e42ae9395034e8f867452&hash=CE7CAB00A81C225005982B41EBD87962
+      href: https://www.isc2chapter-pikespeak.org/index.php
 
   - Metageek Store:
     - icon: https://shop.metageek.com/cdn/shop/files/MetaGeek_Logo_Primary_360x.png?v=1614741732
@@ -96,38 +95,37 @@
     - icon: https://shop.metageek.com/cdn/shop/files/MetaGeek_Logo_Primary_360x.png?v=1614741732
       href: https://www.metageek.com/
 
-  - Exploit DB:
-    - icon: https://www.exploit-db.com/images/spider-white.png
-      href: https://www.exploit-db.com
-
-  - CVSS:
-    - icon: https://www.first.org/cvss/identity/CVSS_4.0-complete-signature-RGB.svg
-      href: https://www.first.org/cvss/
-
-  - Google Transparency Report:
-    - icon: https://www.google.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg
-      href: https://transparencyreport.google.com/safe-browsing/search
-
-  - Virus Total:
-    - icon:
-      href: https://www.virustotal.com/gui/home/upload
-
-  - FireEye Market:
-    - icon:
-      href: https://fireeye.market
+  - Metasploit Course:
+    - abbr: MS
+      href: https://www.offsec.com/metasploit-unleashed/
 
   - NIST:
     - icon: https://www.nist.gov/libraries/nist-component-library/dist/img/logo/NIST-Logo-Brand-White.svg
       href: https://www.nist.gov
 
+  - Qualys SSL Labs:
+    - icon: https://www.ssllabs.com/images/qualys-ssl-labs-logo.png
+      href: https://www.ssllabs.com
+
+  - Security Certification Roadmap:
+    - icon: https://pauljerimy.com/wp-content/uploads/2021/01/Logo-TEXT.png
+      href: https://pauljerimy.com/security-certification-roadmap/
+
   - TALOS Intelligence:
-    - icon:
+    - abbr: TI
       href: https://talosintelligence.com
+
+  - Telerik:
+    - abbr: TE
+      href: https://www.telerik.com/
 
   - Threat Modeling:
     - icon: https://threat-modeling.com/wp-content/uploads/2023/04/cropped-cropped-tm-com-logo-powered.png
       href: https://threat-modeling.com
 
+  - Virus Total:
+    - abbr: VT
+      href: https://www.virustotal.com/gui/home/upload
 
 - Social:
   - Github:
