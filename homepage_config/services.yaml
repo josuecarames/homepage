@@ -236,3 +236,11 @@
         url: https://portainer.josuecarames.com
         env: 71
         key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
+
+  - SDR:
+      icon: portainer
+      widget:
+        type: portainer
+        url: https://portainer.josuecarames.com
+        env: 72
+        key: {{HOMEPAGE_VAR_PORTAINER_TOKEN}}
