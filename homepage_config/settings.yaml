@@ -33,11 +33,16 @@ quicklaunch:
   # hideVisitURL: true
 
 layout:
-  Snapshots:
+  Status:
+    header: false
+    tab: Status
+    style: row
+    columns: 1
+  Analytics:
     header: false
     tab: Analytics
     style: row
-    columns: 2
+    columns: 1
   Infrastructure:
     # header: false
     tab: Services

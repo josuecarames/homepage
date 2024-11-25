@@ -1,4 +1,4 @@
-- Snapshots:
+- Status:
   - Uptime Kuma:
       widget:
         type: iframe
@@ -19,6 +19,7 @@
   #       loadingStrategy: eager # optional, default: eager
   #       allowScrolling: yes # optional, default: yes
 
+- Analytics:
   - Grafana:
       widget:
         type: iframe
